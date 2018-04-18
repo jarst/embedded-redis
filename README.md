@@ -12,7 +12,7 @@ Maven dependency
 Gradle
 ```groovy
 dependencies {
-  compile 'com.netflix.spinnaker.embedded-redis:embedded-redis:0.7'
+  compile 'com.netflix.spinnaker.embedded-redis:embedded-redis:0.7.0'
 }
 ```
 Maven
@@ -20,7 +20,7 @@ Maven
 <dependency>
   <groupId>com.netflix.spinnaker.embedded-redis</groupId>
   <artifactId>embedded-redis</artifactId>
-  <version>0.7</version>
+  <version>0.7.0</version>
 </dependency>
 ```
 
