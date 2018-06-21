@@ -25,14 +25,14 @@ public class RedisExecProvider {
 
     private void initExecutables() {
         // TODO: Include windows binaries
-//        executables.put(OsArchitecture.WINDOWS_x86, "redis-server-3.2.11.exe");
-//        executables.put(OsArchitecture.WINDOWS_x86_64, "redis-server-3.2.11.exe");
+//        executables.put(OsArchitecture.WINDOWS_x86, "redis-server-4.0.10.exe");
+//        executables.put(OsArchitecture.WINDOWS_x86_64, "redis-server-4.0.10.exe");
 
-        executables.put(OsArchitecture.UNIX_x86, "redis-server-3.2.11-32");
-        executables.put(OsArchitecture.UNIX_x86_64, "redis-server-3.2.11");
+        executables.put(OsArchitecture.UNIX_x86, "redis-server-4.0.10-32");
+        executables.put(OsArchitecture.UNIX_x86_64, "redis-server-4.0.10");
 
-        executables.put(OsArchitecture.MAC_OS_X_x86, "redis-server-3.2.11.app");
-        executables.put(OsArchitecture.MAC_OS_X_x86_64, "redis-server-3.2.11.app");
+        executables.put(OsArchitecture.MAC_OS_X_x86, "redis-server-4.0.10.app");
+        executables.put(OsArchitecture.MAC_OS_X_x86_64, "redis-server-4.0.10.app");
     }
 
     public RedisExecProvider override(OS os, String executable) {
